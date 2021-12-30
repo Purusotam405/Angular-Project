@@ -1,0 +1,24 @@
+<h2>WELCOME TO {{title}}</h2>
+<div class="navigation" *ngIf="auth.isLogged()">
+  <div class="horiz-grid">
+    <div class=logo>HOTEL RESERVATION</div>
+  
+    <div class="horiz-grid">
+      <span class="btn" routerLink="search" routerLinkActive="active">SEARCH</span>
+      <span class="button" routerLink="cart" routerLinkActive="active">
+            CART (1)
+      </span>
+     
+    </div>
+    <em>{{ auth.data?.name }}</em>
+  </div>
+</div>
+<div>
+  <button class="logout" (click)="auth.logout()" >LogOut</button>
+</div>
+
+
+<div><router-outlet></router-outlet></div>
+
+
+

@@ -1,0 +1,106 @@
+<div class="wrapper three-cols">
+  <div class="card side-bar scrollable">
+    <div class="title">Search</div>
+    <div class="content">
+      <form #formSearch="ngForm" (submit)="searchHotels(formSearch.value.text)" >
+        <input type="text" placeholder="City (Rome or Milan)" [ngModel]="text" name="text">
+        <button type="submit">SEARCH</button>
+      </form>
+
+      <div class="separator"></div>
+      <div class="font-big">Hotel in {{text}}</div>
+
+      <div class="horiz-grid separator"
+            *ngFor="let hotel of hotels"
+            (click)="setActive(hotel)"
+            [ngClass]="{'active': hotel.id === active?.id}">
+        <div>{{hotel.name}}</div>
+        <div>{{hotel.rooms[0].price}}</div>
+      </div>
+
+      <div class="separator"></div>
+      <div class="horiz-grid">
+        <div></div>
+        <em>{{hotels?.length}} results</em>
+      </div>
+
+    </div>
+  </div>
+
+  <!--MAP-->
+  <div class="card map">
+    <div>
+      <img src="https://maps.googleapis.com/maps/api/staticmap?center={{active?.location.address}}&zoom=15&size=700x200&key=AIzaSyBAyMH-A99yD5fHQPz7uzqk8glNJYGEqus"
+            width="100%" height="200">
+      <div class="address">
+        <div class="font-big">{{active?.name}}</div>
+        <div class="font-small">{{active?.location.address}}</div>
+      </div>
+    </div>
+</div>
+
+<!--INFO BOX-->
+<div class="card">
+    <div class="content center">
+
+      <div class="separator"></div>
+      <div class="font-superbig">
+        {{ active?.rate }}
+        <i class="ion-ios-person"></i>
+      </div>
+      <div>
+        <i *ngFor="let star of [0,0,0,0,0]"
+        class="icon ion-ios-star-outline"></i>
+      </div>
+
+      <br>
+
+      <div class="horiz-grid separator"
+          *ngFor="let room of active?.rooms">
+        <div>{{ room.label }}</div>
+        <div>
+          {{ room.price }}
+          <i class="ion-ios-cart"></i>
+        </div>
+      </div>
+
+      </div>
+    </div>
+
+<!-- IMAGE GALLERY -->
+<div class="card gallery scrollable">
+  <img [src]="activeImage" width="100%" height="150" alt="">
+  <div class="nested">
+    <div *ngFor="let img of active?.images"
+          (click)="activeImage = img">
+      <img [src]="img" width="100%">
+    </div>
+  </div>
+</div>
+
+<!--SERVICES-->
+<div class="card services scrollable">
+    <div class="title">Services</div>
+    <div class="nested">
+      <div *ngFor="let icon of active?.services">
+        <i [class]="'icon ion-ios-' + icon" [title]="icon"></i>
+      </div>
+    </div>
+</div>
+
+<!--CONTACT FORM-->
+<div class="card contact">
+  <div class="title">Contacts</div>
+  <div class="content">
+    <form #contactForm="ngForm" (submit)="sendEmail(contactForm.value)">
+      <input type="text" placeholder="Your mail" required
+      [ngModel] name="email">
+      <textarea cols="20" rows="6" placeholder="Your message" required
+      [ngModel] name="msg"></textarea>
+      <button type="submit" [disabled]="contactForm.invalid">SEND</button>
+    </form>
+  </div>
+</div>
+
+
+</div>

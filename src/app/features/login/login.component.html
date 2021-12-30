@@ -1,0 +1,21 @@
+  <!--CONTENT-->
+<div class="wrapper centered">
+  <div class="card vh-centered" [ngClass]="{'error': auth.error}">
+    <div class="title">Login</div>
+    <div class="content">
+
+      <form #autVar="ngForm" (submit)="auth.login(autVar.value)">
+        <input type="text" required placeholder="Username" [ngModel] name="user" >
+        <input type="password" required placeholder="Password" [ngModel] name="pass" >
+        <button type="submit" [disabled]="autVar.invalid">SIGN-IN</button>
+      </form>
+    </div>
+    <small *ngIf="auth.error"
+       [style.color]="'black'"
+       [style.fontSize]="'20px'"
+       [style.marginLeft]="'20px'"
+       ><strong>Invalid Credentials</strong>
+    </small>
+  </div>
+</div>
+<app-root></app-root>

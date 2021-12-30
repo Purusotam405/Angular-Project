@@ -1,0 +1,205 @@
+{
+  "login": [
+    {
+      "username": "purusotam405",
+      "Password": "admin123"
+      
+    }
+  ],
+ 
+  "hotels": [
+    {
+      "id": 1,
+      "city": "Thimphu",
+      "name": "Terma Linca Resort And Spa",
+      "services": [
+        "alarm", "beer", "car", "heart-empty", "train", "restaurant", "paw", "easel", "cafe"
+      ],
+      "location": {
+        "lat": 44, "lng": 11, "address": "Debsi Babesa,Thimphu, Bhutan",
+        "phone":"+975 235 1490"
+      },
+      "rate": 4.2,
+      "stars":4,
+      "images": [
+        "https://www.kayak.com/rimg/himg/d5/51/51/hotelsdotcom-653376-795fcaf7_w-707737.jpg?width=720&height=576&crop=true",
+        "https://www.kayak.com/rimg/himg/2c/53/58/ostrovok-8185619-5f0c154df23ba58c0ff3b4a85417974f2f4a8fc5-189335.jpg?width=720&height=576&crop=true",
+        "https://www.kayak.com/rimg/himg/d5/51/51/hotelsdotcom-653376-795fcaf7_w-707737.jpg?width=720&height=576&crop=true",
+        "https://www.kayak.com/rimg/himg/5f/d9/5a/ostrovok-8185619-5eeef1f33cf27d0a686fc70535f51fa43fd05a3e-940125.jpg?width=720&height=576&crop=true",
+        "https://www.kayak.com/rimg/himg/4d/7c/6e/ostrovok-8185619-efd823019c7432bb1141027192f7e8cfb8423043-440497.jpg?width=720&height=576&crop=true",
+        "https://www.kayak.com/rimg/himg/3f/05/74/ostrovok-8185619-73f500d4dcd90d4be0eb77da8acacc2716029adb-501505.jpg?width=720&height=576&crop=true"
+      ],
+      "email": "info@hoteldruk.com",
+      "rooms": [
+        { "label": "Single", "price": 89 },
+        { "label": "Double", "price": 99 },
+        { "label": "Triple", "price": 109 }
+      ]
+    },
+    {
+      "id": 2,
+      "city": "Thimphu",
+      "name": "Hotel Riverside",
+      "services": [
+        "briefcase","train", "paw", "restaurant", "alarm", "car"
+      ],
+      "location": {
+        "lat": 43, "lng": 13, "address": "1807 Changbangdu, Near Flyover Bridge Thimphu, Thimphu 11001, Bhutan",
+        "phone":"+975 233 8522"
+      },
+      "rate": 3.7,
+      "stars": 3,
+      "images": [
+        "https://www.kayak.com/rimg/himg/b9/dd/0a/ostrovok-9065333-1badfaff7f776247eaacc582144f215583f6c9a9-541236.jpg?width=720&height=576&crop=true",
+        "https://www.kayak.com/rimg/himg/71/3d/e2/ostrovok-9065333-2491d9c13d872f29a4d1cac26532bf41d25c1407-855827.jpg?width=720&height=576&crop=true",
+        "https://www.kayak.com/rimg/himg/b9/dd/0a/ostrovok-9065333-1badfaff7f776247eaacc582144f215583f6c9a9-541236.jpg?width=720&height=576&crop=true",
+        "https://www.kayak.com/rimg/himg/a2/43/06/ostrovok-9065333-ca70f119e6f2c2c362afb3a53e9657a12d3ac426-467359.jpg?width=720&height=576&crop=true",
+        "https://www.kayak.com/rimg/himg/a6/4b/27/hotelsdotcom-736201184-c265a5a8_w-904608.jpg?width=720&height=576&crop=true",
+        "https://www.kayak.com/rimg/himg/a5/82/7e/ostrovok-9065333-bbc890b1c036c2e43d7569d9187505d00b417c10-629430.jpg?width=720&height=576&crop=true"
+      ],
+      "email": "info@hotelkhang.com",
+      "rooms": [
+        { "label": "Single", "price": 69 },
+        { "label": "Double", "price": 79 }
+      ]
+    },
+    {
+      "id": 3,
+      "city": "Thimphu",
+      "name": "Lhaki Yangchak Residency",
+      "services": [
+        "paw", "restaurant", "alarm", "car"
+      ],
+      "location": {
+        "lat": 43, "lng": 13, "address": "Babena, Thimphu 11001, Bhutan",
+        "phone":"+975 1739 7454"
+      },
+      "rate": 3.5,
+      "stars": 4,
+      "images": [
+        "https://www.kayak.com/rimg/himg/ca/db/84/hotelsdotcom-858545152-d1e4032c_w-487724.jpg?width=720&height=576&crop=true",
+        "https://www.kayak.com/rimg/himg/ca/db/84/hotelsdotcom-858545152-d1e4032c_w-487724.jpg?width=720&height=576&crop=true",
+        "https://www.kayak.com/rimg/himg/a4/d1/85/ostrovok-9076118-bab99f843a7dcb31d4eb75d8dbf1a5faa00542e6-267389.jpg?width=720&height=576&crop=true",
+        "https://www.kayak.com/rimg/himg/a4/d1/85/ostrovok-9076118-bab99f843a7dcb31d4eb75d8dbf1a5faa00542e6-267389.jpg?width=720&height=576&crop=true",
+        "https://www.kayak.com/rimg/himg/4a/1a/58/ostrovok-9076118-00f2ca5a40029416464b95a4b9f68b6ac0f2a673-312227.jpg?width=720&height=576&crop=true",
+        "https://www.kayak.com/rimg/himg/7b/29/02/ostrovok-9076118-4195d5d068165f33e063fbbdd08dba542d39afc3-731669.jpg?width=720&height=576&crop=true"
+      ],
+      "email": "info@hotelgalinga.com",
+      "rooms": [
+        { "label": "Single", "price": 129 },
+        { "label": "Double", "price": 139 }
+      ]
+    },
+    {
+      "id": 4,
+      "city": "Thimphu",
+      "name": "Hotel Osel",
+      "services": [
+        "briefcase","train", "paw", "restaurant", "alarm", "car"
+      ],
+      "location": {
+        "lat": 43, "lng": 13, "address": "Phenday Lam Po 543, Thimphu, Thimphu 11001, Bhutan"
+      },
+      "rate": 3.8,
+      "stars": 3,
+      "images": [
+        "https://www.kayak.com/rimg/himg/1d/9f/bb/ostrovok-8487370-6d5c66aa1b6212fb8373e3341dc1e7f4dbe59126-276260.jpg?width=720&height=576&crop=true",
+        "https://www.kayak.com/rimg/himg/31/71/91/ostrovok-8487370-ea9bc9bdfd00dbe32ed8d52b70a1638f75d94090-557210.jpg?width=720&height=576&crop=true",
+        "https://www.kayak.com/rimg/himg/a2/46/8f/ostrovok-8487370-cfa253ffa86186aaa756d8605faeebc7383426f3-649432.jpg?width=720&height=576&crop=true",
+        "https://www.kayak.com/rimg/himg/ed/2b/d2/ostrovok-8487370-51a3b1ebbe56e8702db67cb83e62074a9c3e7399-128028.jpg?width=720&height=576&crop=true",
+        "https://www.kayak.com/rimg/himg/08/d2/03/ostrovok-8487370-bbfb6c0f1144e23071a388b27fa488712d73bec3-304858.jpg?width=720&height=576&crop=true",
+        "https://www.kayak.com/rimg/himg/69/80/d6/ostrovok-8487370-54bb20797d78c02e47c165e7570ae344dd8d1f0f-574282.jpg?width=720&height=576&crop=true"
+      ],
+      "email": "info@hoteltaj.com",
+      "rooms": [
+        { "label": "Single", "price": 69 },
+        { "label": "Double", "price": 79 }
+      ]
+    },
+    {
+      "id": 5,
+      "city": "Thimphu",
+      "name": "Hotel Galingkha",
+      "services": [
+        "bed", "alarm", "car", "briefcase","bed", "bycycle"
+      ],
+      "location": {
+        "lat": 40, "lng": 13, "address": "Norzin Lam, Thimphu 12001, Bhutan",
+        "phone":"+975 232 5388"
+      },
+      "rate": 4.5,
+      "stars": 4,
+      "images": [
+        "https://www.kayak.com/rimg/himg/94/7f/a7/hotelsdotcom-742960000-87635ee0_w-778297.jpg?width=720&height=576&crop=true",
+        "https://www.kayak.com/rimg/himg/c5/3f/fc/ostrovok-8671783-878aad1b977f5fc19b167ebe4ed433c9a18034df-330299.jpg?width=720&height=576&crop=true",
+        "https://www.kayak.com/rimg/himg/94/7f/a7/hotelsdotcom-742960000-87635ee0_w-778297.jpg?width=720&height=576&crop=true",
+        "https://www.kayak.com/rimg/himg/e5/1a/ac/ostrovok-8671783-9012a4f17ccf1a73817a8c79ac0879d2e104b19d-957672.jpg?width=720&height=576&crop=true",
+        "https://www.kayak.com/rimg/himg/82/04/74/ostrovok-8671783-37223fc782be25134cdf76baaac9e4a31cb5e28b-124756.jpg?width=720&height=576&crop=true",
+        "https://www.kayak.com/rimg/himg/dd/ac/a8/ostrovok-8671783-9af023cbc237469d1eb44bce1dcc3403c9250c75-660580.jpg?width=720&height=576&crop=true"
+      ],
+      "email": "info@hotelriverside.com",
+      "rooms": [
+        { "label": "Single", "price": 89 },
+        { "label": "Double", "price": 99 },
+        { "label": "Triple", "price": 109 }
+      ]
+    },
+    {
+      "id": 6,
+      "city": "Paro",
+      "name": "Hotel Khamsum",
+      "services": [
+        "alarm", "beer", "car", "heart-empty", "train", "restaurant", "paw", "easel", "cafe"
+      ],
+      "location": {
+        "lat": 40, "lng": 13, "address": " Town, 12001 Paro, Bhutan Great location - show map"
+      },
+      "rate": 3.1,
+      "stars": 3,
+      "images": [
+        "https://www.booking.com/hotel/bt/khamsum.en-gb.html?aid=306395;label=paro-UNu8yEOLgJnUZKI6MlBC8gS392972673551%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-424093399144%3Alp9075448%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH02-pWD53qm9c;sid=a31e09d856f06de40ed2581d789c3d85#",
+        "https://www.booking.com/hotel/bt/khamsum.en-gb.html?aid=306395;label=paro-UNu8yEOLgJnUZKI6MlBC8gS392972673551%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-424093399144%3Alp9075448%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH02-pWD53qm9c;sid=a31e09d856f06de40ed2581d789c3d85#",
+        "https://www.booking.com/hotel/bt/khamsum.en-gb.html?aid=306395;label=paro-UNu8yEOLgJnUZKI6MlBC8gS392972673551%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-424093399144%3Alp9075448%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH02-pWD53qm9c;sid=a31e09d856f06de40ed2581d789c3d85#",
+        "https://www.booking.com/hotel/bt/khamsum.en-gb.html?aid=306395;label=paro-UNu8yEOLgJnUZKI6MlBC8gS392972673551%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-424093399144%3Alp9075448%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH02-pWD53qm9c;sid=a31e09d856f06de40ed2581d789c3d85#",
+        "https://www.booking.com/hotel/bt/khamsum.en-gb.html?aid=306395;label=paro-UNu8yEOLgJnUZKI6MlBC8gS392972673551%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-424093399144%3Alp9075448%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH02-pWD53qm9c;sid=a31e09d856f06de40ed2581d789c3d85#",
+        "https://www.booking.com/hotel/bt/khamsum.en-gb.html?aid=306395;label=paro-UNu8yEOLgJnUZKI6MlBC8gS392972673551%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-424093399144%3Alp9075448%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH02-pWD53qm9c;sid=a31e09d856f06de40ed2581d789c3d85#"
+      ],
+      "email": "info@hoteloselcom",
+      "rooms": [
+        { "label": "Single", "price": 112 },
+        { "label": "Double", "price": 129 },
+        { "label": "Triple", "price": 149 }
+      ]
+    },
+
+    {
+      "id": 7,
+      "city": "Paro",
+      "name": "Zambala Hotel River-View",
+      "services": [
+        "alarm", "beer", "car", "heart-empty", "train", "restaurant", "paw", "easel", "cafe"
+      ],
+      "location": {
+        "lat": 40, "lng": 13, "address": "  Paro, Bondey, 12002 Paro, Bhutan Good location - show map"
+      },
+      "rate": 4.5,
+      "stars": 3,
+      "images": [
+        "https://www.booking.com/hotel/bt/zambala.en-gb.html?aid=306395;label=paro-UNu8yEOLgJnUZKI6MlBC8gS392972673551%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-424093399144%3Alp9075448%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH02-pWD53qm9c;sid=a31e09d856f06de40ed2581d789c3d85#",
+        "https://www.booking.com/hotel/bt/zambala.en-gb.html?aid=306395;label=paro-UNu8yEOLgJnUZKI6MlBC8gS392972673551%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-424093399144%3Alp9075448%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH02-pWD53qm9c;sid=a31e09d856f06de40ed2581d789c3d85#",
+        "https://www.booking.com/hotel/bt/zambala.en-gb.html?aid=306395;label=paro-UNu8yEOLgJnUZKI6MlBC8gS392972673551%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-424093399144%3Alp9075448%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH02-pWD53qm9c;sid=a31e09d856f06de40ed2581d789c3d85#",
+        "https://www.booking.com/hotel/bt/zambala.en-gb.html?aid=306395;label=paro-UNu8yEOLgJnUZKI6MlBC8gS392972673551%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-424093399144%3Alp9075448%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH02-pWD53qm9c;sid=a31e09d856f06de40ed2581d789c3d85#",
+        "https://www.booking.com/hotel/bt/zambala.en-gb.html?aid=306395;label=paro-UNu8yEOLgJnUZKI6MlBC8gS392972673551%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-424093399144%3Alp9075448%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH02-pWD53qm9c;sid=a31e09d856f06de40ed2581d789c3d85#",
+        "https://www.booking.com/hotel/bt/zambala.en-gb.html?aid=306395;label=paro-UNu8yEOLgJnUZKI6MlBC8gS392972673551%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-424093399144%3Alp9075448%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH02-pWD53qm9c;sid=a31e09d856f06de40ed2581d789c3d85#"
+      ],
+      "email": "info@hoteloselcom",
+      "rooms": [
+        { "label": "Single", "price": 100 },
+        { "label": "Double", "price": 120 },
+        { "label": "Triple", "price": 140 }
+      ]
+    }
+
+  ]
+}
+
